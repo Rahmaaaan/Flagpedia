@@ -1,0 +1,113 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  line-height: 1.666;
+  background: #f0f0f0; /* Light gray background to complement flags */
+  color: #333; /* Darker text color for contrast */
+  margin: auto 0;
+}
+
+/* Site Headline */
+
+h1 {
+  font-weight: 900;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 4rem;
+  color: #fff;
+  line-height: 1.2;
+}
+
+h1 span {
+  padding: 5px 15px;
+  background: #0d7eff; /* Blue color for the headline span */
+}
+
+/* Main Body */
+
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem auto;
+  max-width: 90%;
+}
+
+/* Card */
+
+.dictionary > .term {
+  text-align: center;
+  width: 250px; /* Set a fixed width for consistency */
+  margin-bottom: 30px; /* Increase or decrease as needed for spacing */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.dictionary > .term > dt {
+  margin-bottom: 1rem;
+}
+
+/* Card Title */
+
+dt {
+  color: #0d7eff; /* Blue color for card title */
+  line-height: 1;
+}
+
+dt span {
+  font-size: 200%;
+  font-weight: 900;
+}
+
+.emoji {
+  margin: 0 auto 20px;
+  display: block;
+  font-size: 400%;
+}
+
+/* Card Description */
+
+dd {
+  font-size: 92.5%;
+  margin-left: 0;
+}
+
+dd dt {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+dd dl {
+  font-size: 90%;
+  margin: 1rem auto 0 auto;
+  letter-spacing: 0.33px;
+  max-width: 15rem;
+}
+
+dd dl .term {
+  margin-bottom: 1rem;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #0d7eff; /* Blue color for footer */
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100%;
+  font-size: 16px;
+  color: #fff;
+}
