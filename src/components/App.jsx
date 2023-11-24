@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <h1>
-        <span>flagpedia</span>
+        <span>Flagpedia</span>
       </h1>
 
       <dl className="dictionary">{flagpedia.map(createEntry)}</dl>
