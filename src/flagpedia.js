@@ -1,6 +1,6 @@
 // Add a new food emoji and it will automatically populate to the App!
 
-const emojipedia = [
+const flagpedia = [
   {
     code: "AD",
     emoji: "🇦🇩",
@@ -1923,8 +1923,8 @@ const emojipedia = [
     code: "VN",
     emoji: "🇻🇳",
     unicode: "U+1F1FB U+1F1F3",
-    name: "Viet Nam",
-    title: "flag for Viet Nam",
+    name: "Vietnam",
+    title: "flag for Vietnam",
     dialCode: "+84",
   },
   {
@@ -2001,4 +2001,4 @@ const emojipedia = [
   },
 ];
 
-export default emojipedia;
+export default flagpedia;
